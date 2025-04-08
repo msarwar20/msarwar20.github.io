@@ -7,43 +7,136 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My name is Muhammad Sarwar, and I am a dedicated PhD student and Graduate Research Assistant at the Department of Electrical & Computer Engineering at Iowa State University in Ames, IA. With a strong academic background in Electrical Engineering, including a Master's and Bachelor's degree with honors, I have consistently demonstrated excellence and leadership in my field. My research focuses on voltage stability and the integration of inverter-based resources in power systems, utilizing advanced computational and artificial intelligence techniques. In addition to my academic pursuits, I have gained valuable industry experience through multiple research internships at prestigious institutions such as the Electric Power Research Institute (EPRI) and the Pacific Northwest National Lab (PNNL). I am an active member of several professional organizations, including IEEE, and have a notable record of publications and presentations in my area of expertise.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Education
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**Ph.D. Electrical Engineering** (2021-2025)  
+Iowa State University, Ames, IA, USA  
+- **CGPA:** 3.85  
+- **Advisor:** Professor Venkataramana Ajjarapu, Fellow IEEE  
+- **Relevant Courses:** Energy Systems Planning, Voltage Stability, Optimal Control, Linear Systems, Linear Programming, Machine Learning, Deep Learning  
+- **Research:** “Data-driven Control of DERs and IBRs for Improvement in Power System Voltage Performance and Stability”
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**M.S. Electrical Engineering** (2014-2016)  
+Pakistan Institute of Engineering & Applied Sciences (PIEAS), Islamabad, Pakistan  
+- **CGPA:** 3.91 (Gold Medal recipient for Summa cum Laude)  
+- **Major:** Electrical Power & Control Engineering  
+- **Relevant Courses:** Power System Analysis & Design, Power System Stability & Control, Distributed Generation & Smart Grids, Robust Control in Power Systems  
+- **Thesis:** “Grid Connected Operation of Central Power Plants: Fault Ride Through, Voltage Regulation and Frequency Control Aspects” – Received Best Thesis Award
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**B.Sc. Electrical Engineering** (2010-2014)  
+The Islamia University of Bahawalpur (IUB), Bahawalpur, Pakistan  
+- **CGPA:** 3.87 (Gold Medal recipient for Summa cum Laude)  
+- **Major:** Electrical Power Engineering  
+- **Relevant Courses:** Power System Operation & Control, Power System Analysis, Power System Protection, High Voltage Engineering, Linear Control Systems  
+- **Final Year Project:** “Real Time Smart Monitoring, Analysis & Control of Lab-based Microgrid Through Hardware-in-the-Loop (HIL) Simulation”  
+- **Achievements:** Led a team of 6 members, acquired funding of 100,000/- PKR and secured 1st position in the 6th IEEE Annual Engineering Project Exhibition
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Professional Experience
 
-**Markdown generator**
+**Graduate Research Assistant** (2021–present)  
+Department of Electrical & Computer Engineering, Iowa State University, Ames, IA  
+- Conducting research on Voltage Stability Monitoring and Control of transmission and distribution systems
+- Developing a framework for modeling and analysis of Transmission and Distribution systems with high percentage of inverters-based resources
+- Data-driven control of T&D systems with high penetration of IBRs using deep reinforcement learning (DRL)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+**PhD Research Intern**  
+Electric Power Research Institute (EPRI), Knoxville, TN, USA  
+- **May-Aug 2024:** Worked on assessing the impact of Grid-Forming inverters for providing essential reliability services and support to power grids.
+- **May-Aug 2023:** Worked on the sensitivity analysis to determine critical locations for Grid-Forming inverters for voltage support to the system.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**PhD Research Intern** (Jun-Aug 2022)  
+Pacific Northwest National Lab (PNNL), Richland, WA, USA  
+- Collaborated with Power System Analytics and Grid Resilience teams to develop an automated and scalable tool for estimating reduced ordered (ROM) models for distribution systems. The ROM tool was shared with partner utilities to integrate with their distribution energy management systems and was delivered to DOE within the deadline and allocated budget.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**Lecturer** (2016-2021)  
+Department of Electrical Engineering, PIEAS, Islamabad, Pakistan  
+- Taught undergraduate courses: Power System Protection, Power System Analysis, Calculus-II, Electrical Power Systems
+- Designed and implemented a Course & Program Learning Outcome (CLO/PLO) assessment software for Outcome Based Assessment
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Research Fellow** (2014-2016)  
+Department of Electrical Engineering, Pakistan Institute of Engineering & Applied Sciences (PIEAS), Islamabad, Pakistan  
+- Secured fully-funded fellowship by PIEAS for M.S Electrical Engineering
+- Completed Fellowship with Honors and was awarded the President’s Gold Medal
+- Received Certificate of Appreciation for Best Thesis and Certificate of Merit for distinction in class
+
+## Research Interests
+
+- Voltage Stability of Power Systems with high penetration of inverter based resources (IBRs)
+- Modeling of hybrid PV Plants (Battery Energy Storage System with Solar PV plants)
+- Computational & Artificial Intelligence techniques in Power System
+- Grid strength assessment of high-IBR low-inertia power systems
+- Hybrid power system co-simulations with positive sequence + EMT models
+- Dynamic Transmission and Distribution Co-simulation of Power System
+
+## Software Tools & Programming Languages
+
+**Languages:** MATLAB, Python, Julia, C++  
+**Tools:** {PSS/E, PSCAD, OpenDSS} [with Python APIs], GridLab-D, PLECS, PyTorch, TensorFlow, CPLEX, Gusek
+
+## Publications
+
+1. M. Sarwar, V Ajjarapu, ARR Matavalam, S Roy, H Villegas-Pico, "Short-term Voltage Stability Improvement in Power System through Grid-forming Hybrid PV Plants," accepted for publication in IEEE Transactions on Industry Applications.
+2. M. Almomani, M. Sarwar, V. Ajjarapu, "Novel Data-Driven Indices for Early Detection and Quantification of Short-Term Voltage Instability from Voltage Trajectories," accepted for publication in 2025 IEEE Power & Energy Society General Meeting (PESGM), Austin, TX.
+3. M. Almomani, M. Sarwar, V. Ajjarapu, "Enhanced Entropy-Based Metric for Characterization of Delayed Voltage Recovery," accepted for publication in 2025 IEEE Power & Energy Society General Meeting (PESGM), Austin, TX.
+4. M. Sarwar, ARR Matavalam, V Ajjarapu, "Deep Reinforcement Learning Framework for Short-Term Voltage Stability Improvement," 2023 Texas Power and Energy Conference (TPEC), College Station, TX, USA, October 2022.
+5. M. Sarwar, ARR Matavalam, V Ajjarapu, "Characterization and Mitigation of Fault Induced Delayed Voltage Recovery with Dynamic Voltage Support by Hybrid PV Plants," 2022 North American Power Symposium, Utah, USA, October 2022.
+6. Sohail, I., Hussain, B., Abubakar, M., Sajjad, I. A., Nadeem, M. F., Sarwar, M., "SC currents minimization in distributed generation embedded distribution networks with optimal application of FCLs," CSEE Journal of Power and Energy Systems (2020).
+7. Sarwar, M., Mehmood, F., Abid, M., Khan, A. Q., Khan, A. S., "High Impedance Fault Detection and Isolation in Power Distribution Networks using Support Vector Machines," King Saud Journal of Engineering Sciences, ISSN 1018-3639, https://doi.org/10.1016/j.jksues.2019.07.001.
+8. Khan, A. S., Khan, A. Q., Iqbal, N., Sarwar, M., Mahmood, A., Shoaib, M. A., "Distributed fault detection and isolation in second order networked systems in a cyber–physical environment," ISA transactions, 103, 131-142 (2020).
+9. Qayyum Khan, A., Ullah, Q., Sarwar, M., Gul, S. T., Iqbal, N., "Transmission Line Fault Detection and Identification in an Interconnected Power Network using Phasor Measurement Units," IFAC-PapersOnLine 51, no. 24 (2018): 1356-1363.
+10. Abubakar, M., Sarwar, M., Mehboob, S., Hussain, B., "Development of Real Time Simulation Model for Resistive Type Fault Current Limiter," 2019 IEEE PES Innovative Smart Grid Technologies Europe (ISGT-Europe), Bucharest, Romania, 2019, pp. 1-5. doi: 10.1109/ISGTEurope.2019.8905742.
+11. Sarwar, M., Mehmood, M., Azam, M., Fatima, K. N., Abubakar, M., Hussain, B., "Design and Implementation of an Automatic Synchronizing and Protection Relay through Power-Hardware-in-the-Loop (PHIL) Simulation," International Conference on Emerging Technologies (ICET), Peshawar, Pakistan, 2019, pp. 1-6.
+12. Sarwar, M., Hussain, B., Hussain, A., Abubakar, M., "Improvement of Fault Ride Through Capability of DFIG-based Wind Turbine Systems Using Superconducting Fault Current Limiter," 2019 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia), Chengdu, China, 2019, pp. 4019-4024. doi: 10.1109/ISGT-Asia.2019.8881155.
+13. Abubakar, M., Sarwar, M., Khan, T. H., Sarmad, M., Hussain, B., "Real-time Implementation of Directional Over-current Protection Coordination in a Microgrid," 2018 International Symposium on Recent Advances in Electrical Engineering (RAEE), Islamabad, Pakistan, 2018, pp. 1-6. doi: 10.1109/RAEE.2018.8706888.
+14. Sarwar, M., Asad, B., "A Review on Future Power Systems; Technologies and Research for Smart Grids," 2016 International Conference on Emerging Technologies (ICET), Islamabad, 2016, pp. 1-6. doi: 10.1109/ICET.2016.7813247.
+
+## Poster Presentations
+
+1. **2024:** Muhammad Sarwar, “Data Drive Control of DERs and Hybrid PV Plants to Improve Power System Short-term Voltage Stability,” 61st annual meeting of the Electric Power Research Center at Iowa State University, Ames, IA, USA (won 1st prize in the poster competition).
+2. **2023:** Muhammad Sarwar, “Identification and calibration of critical control parameters in smart inverter dominated distribution systems,” 60th annual meeting of the Electric Power Research Center at Iowa State University, Ames, IA, USA (won 2nd prize in the poster competition).
+3. **2022:** Muhammad Sarwar, “Data-Driven Control of DERs & Hybrid PV Plants for Enhancing Voltage Stability with TSO-DSO Interactions Over Multiple Timescales,” presented in industrial advisory board (IAB) meeting of Power System Engineering Research Center (PSERC), Texas A&M University, College Station, TX, USA (won the first prize in the poster competition).
+
+## Academic Honors, Awards and Distinctions
+
+- **2025:** Sidebottom Fellow for the Year 2024-2025
+- **2024:** First position in poster competition at the Electric Power Research Center Annual Meeting held at Iowa State Univesity, Ames, IA
+- **2024:** Sidebottom Fellow for the Year 2023-2024
+- **2023:** Second place in the poster competition in the EPRC Annual meeting held in Texas A&M University, Dec 2023
+- **2022:** First position in the poster competition in the PSERC Industrial Advisory Board (IAB) meeting held in Texas A&M University, Dec 2023
+- **2021:** Graduate Research assistantship funded by the Power System Engineering Research Centre (PSERC) and National Science Foundation (NSF)
+- **2019:** Travel grant funding by the Pakistan Science Foundation for attending 2019 IEEE PES ISGT Conference in Chengdu, China
+- **2016:** Gold Medal in M.S Electrical Engineering from PIEAS, Islamabad, Pakistan
+- **2016:** Certificate of Merit for distinction in M.S Electrical Engineering
+- **2016:** Certificate of Appreciation for Best Thesis in M.S Electrical Engineering
+- **2014:** Fellowship for M.S. Electrical Engineering, Pakistan Institute of Engineering and Applied Science, Islamabad, Pakistan worth 8,00,000/- PKR
+- **2014:** Gold Medal in B.Sc Electrical Engineering
+- **2014:** Certificate of Distinction for Best Final Year Project in Power Engineering category at 6th IEEE AEPEX, UCET, IUB
+- **2014:** ICT R&D Fund’S National Grassroots Research Initiative (NGIRI) grant of PKR 100,000/- for B.S Final Year Project
+- **2014:** On Dean’s List from 2nd to 8th semester for Distinction in BSEE
+- **2013:** 1st Position in Matlab Competition at IEEE Congress MUET - October 2013
+
+## Professional Associations
+
+- Graduate Student Member IEEE
+- Member IEEE Power and Energy (IEEE PES) Society
+- Member IEEE Eta-Kappa-Nu (HKN) Society
+- Life-Time Member of Pakistan Engineering Council as a Registered Engineer
+
+## Administrative & Community Services
+
+- **2019:** Registration Chair of IEEE symposium on Recent Advances in Electrical Engineering being held on August 28-29, 2019 at PIEAS, Islamabad, Pakistan
+- **2019:** Member of Technical Committee of IEEE symposium on Recent Advances in Electrical Engineering held on August 17-18, 2019 at PIEAS, Islamabad, Pakistan
+- **2017:** Registration Co-Chair of IEEE symposium on Recent Advances in Electrical Engineering held on October 23-26, 2017 at PIEAS, Islamabad, Pakistan
+- **2017:** Member of Technical Committee of IEEE symposium on Recent Advances in Electrical Engineering held on October 23-26, 2017 at PIEAS, Islamabad, Pakistan
+- **2016-Present:** Reviewer: Conferences
+  - IEEE Symposium on Recent Advances in Electrical Engineering, August 2017-2020 (4 years), Islamabad, Pakistan
+  - IEEE Power and Energy Society General Meeting (PESGM)
+  - IEEE Texas Power and Energy Conference (TPEC), College Station, TX
+  - IEEE North American Power Symposium (NAPS)
+- **2017-Present:** Reviewer: Journals
+  - IEEE Transactions on Power Systems
+  - IEEE Transactions on Industry Applications
+  - IET Generation, Transmission and Distribution
+  - King Saud Journal of Engineering Sciences
