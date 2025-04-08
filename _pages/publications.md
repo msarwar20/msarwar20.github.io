@@ -1,9 +1,8 @@
 ---
-permalink: publications/
+permalink: /publications/
 title: "Publications - Muhammad Sarwar - PhD Electrical Engineering - Iowa State University"
 author_profile: true
-redirect_from: 
-  - /publications/
+redirect_from:
   - /publications.html
 ---
 
